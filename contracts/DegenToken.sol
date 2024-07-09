@@ -59,12 +59,8 @@ contract DegenToken is ERC20, Ownable {
         return redeemedICollectable[msg.sender][_collectableId];
     }
 
-    function showAllCollectables() public view returns (Collectable[] memory) {
-        Collectable[] memory _collectables = new Collectable[](4);
-        for (uint256 i = 1; i <= 4; i++) {
-            _collectables[i - 1] = collectables[i];
-        }
-        return _collectables;
+    function showAllCollectables() external pure returns (string memory) {
+        return "1. Mandarin Book NFT\n2. Sanskrit Book NFT\n3. Nepali Book NFT\n4. Czech Book NFT\n";
     }
 
 }
