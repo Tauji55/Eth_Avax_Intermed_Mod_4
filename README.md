@@ -1,4 +1,4 @@
-# Project3_Degen_ERC20_Token_Eth_Intermediadiate
+# Project4_Degen_ERC20_Token_Eth_Intermediadiate
 
 Deployment of smart contract to create an ERC20 Token named Degen Token.
 This project covers the Assessment 1 of Module 4 in the Eth+Avax Intermediate Course under Metacrafters.
